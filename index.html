@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Innit?!</title>
+    <link href="innit.png" rel="shortcut icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            background-color: #111;
+            color: #fafafa;
+            font-family: 'Rubik';
+        }
+
+        h3,
+        h4 {
+            font-weight: normal;
+        }
+
+        a {
+            color: #0670b1;
+            transition: all 0.25s;
+        }
+
+        a:hover {
+            color: #045689;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>I noticed that a lot of Taka Hirose's Tweets contain "innit", so I made this page to show the latest one.</h3>
+
+    <a class="twitter-timeline" data-dnt="true" data-tweet-limit="1" data-chrome="noheader nofooter noborders noscrollbar transparent" href="https://twitter.com/search?q=from%3Atakahirose%20%22innit%22" data-widget-id="809396513524895748">Innit?!</a>
+
+    <noscript><h4>You'll need to <a href="http://enable-javascript.com">Enable JavaScript for the Tweet to load</h4></noscript>
+
+    <p style="margin-bottom: 1em; margin-top: 1em;">You can view all of them Twitter <a href="https://twitter.com/search?f=tweets&vertical=default&q=from%3Atakahirose%20innit">here</a>.</p>
+
+    <p>A <a href="https://dnomaid.co.uk/?utm_source=footer&utm_medium=innit">dnomaid</a> thing.</p>
+
+    <script>
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");
+    </script>
+</body>
+
+</html>
